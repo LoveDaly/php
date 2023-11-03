@@ -407,4 +407,5 @@ class DefaultController extends Controller
         foreach ($admin_role as $r) {
             array_push($admin_role_data, $r->action);
         }
-        return vi
+        return vi;
+	}
